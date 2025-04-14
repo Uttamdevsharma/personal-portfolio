@@ -21,6 +21,7 @@ body{
     position: sticky;
     top: 0;
     z-index: 100000;
+    height: 6.5rem;
     backdrop-filter: blur(4px);
     background-color: rgba(34,34, 34, 0.25);
     
@@ -94,7 +95,7 @@ body{
  .hero-image,
  .project-image{
    
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
     margin: 0 auto;
     display: block;
@@ -139,6 +140,7 @@ body{
     padding: 6.5rem 1rem 0 1rem;
     min-height: 100vh;
     overflow: visible;
+    margin-bottom: 100px;
  }
 
 
@@ -242,6 +244,10 @@ body{
 
 
    /* Certifications  */
+
+   
+
+   
 
    .certificates-sub-container{
       display: grid;
@@ -422,7 +428,7 @@ body{
    /* Contact */
 
    .contact-container{
-      margin: 5rem 0;
+      margin: 7rem 0;
    }
 
    .contact-details a,
@@ -517,8 +523,13 @@ body{
       width: 100%;
       margin-left: auto;
       margin-right: auto;
+      scroll-margin-top: 6.6rem;
   
    } 
+
+   .hero-container{
+      scroll-margin-top: 6.6rem;
+   }
 
    @media (max-width: 992px){
       .resume-sub-container,
